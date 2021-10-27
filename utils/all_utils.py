@@ -40,12 +40,25 @@ def save_plot(df, file_name, model):
         model (object): trained model to
     """
     def _create_base_plot(df):
+        """creates the base plots
+
+        Args:
+            df (python object): pandas dataframe
+        """
         df.plot(kind="scatter", x="x1", y="x2", c="y", s=100, cmap="winter")
         plt.axhline(y=0, color="black", linestyle="--", linewidth=1)
         plt.axvline(x=0, color="black", linestyle="--", linewidth=1)
         figure = plt.gcf() # get current figure
         figure.set_size_inches(10, 8)
     def _plot_decision_regions(X, y, classfier, resolution=0.02):
+        """plot the decision lines 
+
+        Args:
+            X (python object): traing data
+            y (dataframe): labels
+            classfier (object): model which classified
+            resolution (float, optional): color. Defaults to 0.02.
+        """
         colors = ("red", "blue", "lightgreen", "gray", "cyan")
         cmap = ListedColormap(colors[: len(np.unique(y))])
 
