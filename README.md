@@ -12,4 +12,4 @@ cp Research\ notebooks/demo.ipynb .
 [Git handbook](https://guides.github.com/introduction/git-handbook/)
 
 ## ADD image-
-<img src="/home/sai/Desktop/live_demo/perceptron/plots/OR.png" alt="or plt" width="500" height="600">
+<img src="/home/sai/Desktop/live_demo/perceptron/plots/OR.png" alt="or plt" width="500" height="500">
