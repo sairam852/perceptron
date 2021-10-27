@@ -8,3 +8,4 @@ git add . && git commit -m "doc string updated" && git push https://github.com/s
 ```bash
 cp Research\ notebooks/demo.ipynb .
 ```
+[Git handbook](https://guides.github.com/introduction/git-handbook/)
