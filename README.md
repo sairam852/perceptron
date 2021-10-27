@@ -13,3 +13,12 @@ cp Research\ notebooks/demo.ipynb .
 
 ## ADD image-
 <img src="/home/sai/Desktop/live_demo/perceptron/plots/OR.png" alt="or plt" width="500" height="500">
+
+## dataset-
+ 
+ x1 | x2 | y
+ -|-|-
+ 0|0|0
+ 0|1|1
+ 1|0|1
+ 1|1|1
