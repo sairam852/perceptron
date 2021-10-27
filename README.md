@@ -8,4 +8,8 @@ git add . && git commit -m "doc string updated" && git push https://github.com/s
 ```bash
 cp Research\ notebooks/demo.ipynb .
 ```
+## Add URL-
 [Git handbook](https://guides.github.com/introduction/git-handbook/)
+
+## ADD image-
+![sample image](perceptron/plots/or.png)
